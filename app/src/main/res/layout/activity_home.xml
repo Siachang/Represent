@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_background"
+    android:visibility="visible"
+    tools:context=".Home">
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="260dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginLeft="99dp"
+        android:layout_marginRight="99dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="3dp"
+        android:contentDescription="Enter Address"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        android:textColor="@android:color/white"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/or" />
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="45dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="64dp"
+        android:text="Represent!"
+        android:textColor="@android:color/white"
+        android:textSize="65dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/or"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="189dp"
+        android:layout_marginLeft="189dp"
+        android:layout_marginRight="189dp"
+        android:layout_marginStart="189dp"
+        android:layout_marginTop="11dp"
+        android:text="OR"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/zipButton" />
+
+    <Button
+        android:id="@+id/zipButton"
+        android:layout_width="168dp"
+        android:layout_height="65dp"
+        android:layout_marginEnd="122dp"
+        android:layout_marginLeft="121dp"
+        android:layout_marginRight="122dp"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="34dp"
+        android:text="Use My Location"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appName" />
+
+</android.support.constraint.ConstraintLayout>

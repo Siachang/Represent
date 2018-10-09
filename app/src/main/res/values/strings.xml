@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Represent!</string>
+    <string name="latitude_label" />
+    <string name="longitude_label" />
+</resources>
